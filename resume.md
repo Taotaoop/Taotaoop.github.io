@@ -1,0 +1,54 @@
+# Hantao Wang
+## Contect Info
+- <hantaowang31@gmail.com>
+- (+1)431-334-9958
+- Winnipeg, MB, Canada
+
+## EDUCATION
+**Bachelor of Science, Computer Science Major(HCI concentrate)** Sept.2018 - June.2023
+- University of Manitoba
+- Degree GPA 3.5/4.5
+- Main courses: Software Engineering, Operating System, Blockchain Systems and Decentralized Applications, Distributed Computing, Human-Computer Interaction, Introduction to Artificial Intelligence, Computer Graphics, Database, Data Structures and Algorithms
+
+## TECHNICAL SKILL
+| Languages | Software/Frameworks | Operating Systems |   
+|:--------:|:---------:|:---------:|
+| Python | Vue.js  | Windows |
+|    R   | OpenGL  | Linux   |  
+| JavaScript | React |       |
+| C++        | Unity |       |
+| NoSQL      | React |       |
+
+## INTERSHIP EXPERIENCE
+**Data Engineer, Esgyn Information Technology CO., Ltd<br> Jun 2021 – Sept 2021**<br>
+Esgyn IT is a database company that provides distributed database services and solutions.
+- Created a web scraper that retrieves information on around 40,000 real-time sales data, used to help the analytical team make informed decisions on marketing.
+- Created programs to clean, structure, and transform data from other sources to ensure its consistency, completeness, and accuracy.
+- Completed Oracle compatibility testing of SQL functions TO_CHAR and SUBSTR in the distributed database.
+  - Designed and coded test cases manually tested and created test scripts based on Esgyn’s automation test framework to test these cases.
+  - Created and edited relevant technical documents and reports.
+
+**Guizhou Xiao-I Robot Technology Co., Ltd. <br>Dec 2021 – Apr 2022**<br>
+Xiao-i is one of the global AI industrialization leading company focusing on cognitive intelligence
+- Contributed to the development of a knowledge integration platform, a platform that provided document sharing, training and tests, and a community forum for employees.
+Notable contributions include:
+    - Created a commenting system for the documents delivered on the platform.
+    - Designed and implemented the relevant user interface of the knowledge platform and user login, search, and manage modules.
+    - Created and edited relevant user manuals and reports.
+
+## PROJECT
+**Electronic Medical Record System(Blockchain)**
+<br>
+Created an EMR system using Hyperledger Fabric, including smart contracts that oblivious tranfer patient data and IPFS components to store data on separete nodes through internet. And QR code impletmentation to secure access sharing. Written in JavaScript and Vue.
+
+**Smart Car Mileage Tracker (Blockchain)**
+<br>
+An Mileage Tracker system based on Hyperledger Fabric and IoT. System will automaticlly capture car infomation and record it on a blockchain network. Components including on-chain/off-chain transformation, network, and smart contract was implemented. Written in JavaScript on IBM Blockchain Platform.
+
+## EXTRACURRICULAR ACTIVITIES
+**Member of UMCSSA (University of Manitoba Chinese Students and Scholars Association)**
+-   Volunteered in the Events, Outreach and New Media departments. Responsible for organizing, planning and promoting major events (around 300 people)
+
+**Member of IEEE&UMIEEE (University of Manitoba Institute of Electrical and Electronics Engineers Student Branch)**
+- Participated in workshops and training sessions as a member of the BPT (bison programming team), covering Machine learning, Technological Stewardship, etc.
+- Participated in IEEEXtreme which is a 24 hours of Competitive Programming Contest, ranked top 20% worldwide and 2nd in University of Manitoba.
