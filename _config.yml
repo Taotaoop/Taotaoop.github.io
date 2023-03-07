@@ -33,6 +33,7 @@ email: hantaowang31@gmail.com
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
