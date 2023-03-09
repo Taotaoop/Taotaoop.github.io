@@ -1,7 +1,7 @@
 # Hosting Static Resume Website on GitHub
 This tutorial includes a step-by-step tutorial on hosting a static resume website using Jekyll on GitHub
 
-[Demo](https://taotaoop.github.io/)
+[Demo preview](https://taotaoop.github.io/)
 ## Purpose
 The purpose of this project is to demonstrate how to host and format a resume on GitHub and introduce the general principles of Modern Technical Writing by Andrew Etter
 ## Prerequisites
