@@ -46,7 +46,7 @@ Skip to Step 3 if you have all [prerequisites](#prerequisites) installed.
   ![Create repository Gif](images/createRepository.gif)
 ### Step 4: Create a Jekyll Template
 - Open **"Command Prompt"** by select the Start button then searching **"cmd"** 
-- Direct to the local folder create in Step 3 using command ```cd {local path}```  
+- Direct to the local folder created in Step 3 using command ```cd {local path}```  
 - Run ```jekyll new {filename}``` to install the Jekyll templete
 
 Your terminal window should look something like this
@@ -54,10 +54,10 @@ Your terminal window should look something like this
 ![image](images/terminal.jpg)
 
 ### Step 5: Upload Resume in Markdown Format
-If you do not have a markdown resume yet or do not know how to write a markdown resume. [Markdown Tutorial](https://www.markdowntutorial.com/) and [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) are very useful tools to start with.
-- Copy your Makrdown resume 
+If you do not have a markdown resume yet or do not know how to write a markdown resume. [Markdown Tutorial](https://www.markdowntutorial.com/) and [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) are some handy tools to start with.
+- Copy your Markdown resume 
 - Paste into the folder created in step 4
-- Copy this line of code and insert at the top of your markdown resume
+- Copy this line of code and insert it at the top of your markdown resume
 ```
 ---
 layout: page
@@ -66,7 +66,7 @@ permalink: /
 ```
 
 ### Step 6: Change the Theme
-The default theme for Jekyll is *minima*. More pre-made theme can be found in [Jekyll theme galleries](http://jekyllthemes.org/)
+The default theme for Jekyll is *minima*. More pre-made themes can be found in [Jekyll theme galleries](http://jekyllthemes.org/)
 - Open the *_config.yml* file in your folder
 - Replace ```theme: minima``` to ```theme: {theme name you desire to use}```
   
@@ -94,7 +94,7 @@ At this point, all files should be hosted on your GitHub repository.
 ![images](images/PublishWeb.jpg)
 
 ## Step 9: Visit your Website
-Once Step 7 is done, GitHub will start compiling your project which may take a few minutes
+Once Step 7 is done, GitHub will start compiling your project and it may take a few minutes 
 - refresh the page after a few minutes
 - Click **"Visit site"**
 
@@ -102,10 +102,10 @@ Once Step 7 is done, GitHub will start compiling your project which may take a f
 
 ## Run Website Locally
 - Open **"Command Prompt"** by selecting the Start button and then searching **"cmd"** 
-- Direct to the local folder path create in Step 3 using command ```cd {local path}``` 
-- Enter command ```bundle exec jekyll serve``` 
+- Direct to the local folder path created in Step 3 using command ```cd {local path}``` 
+- Enter command ```bundle exec Jekyll serve``` 
 
-Your window should look something smilar to this
+Your window should look something similar to this
 ![images](images/cmd.jpg)
 
 - Copy the URL in **"Server address"**
@@ -126,19 +126,19 @@ Your window should look something smilar to this
 ## FAQ
 Q: Why is Markdown better than a word processor
 
-A: Markdown is a lightweight markup language. It is easier and faster than word processor, and it guaranteed to open in the same format at anywhere.
+A: Markdown is a lightweight markup language. It is easier and faster than word processors, and it guarantees to open in the same format anywhere.
 
 Q: Why is my resume not in format?
 
 A: Make sure the baseurl and url are set up correctly in *_config.yml*. And check if your choice of theme is [supported](https://pages.github.com/themes/) on GitHub
 
-Q: Why hosting resume on GitHub?
+Q: Why host your resume on GitHub?
 
-A: Hosting resume on GitHub is a good way to demonstrate your programming skill to employers and it is easier for them to access your resume.
+A: Hosting your resume on GitHub is a good way to demonstrate your programming skill to employers and it is easier for them to access your resume.
 ## Concepts of Etter's Book
 ### Use Lightweight Markup
-- As Andrew Etter said in Modern Technical Writing *"One of the tenets of modern technical writing is that everyone is a contributor"*. Lightweight markup languages like Markdown elimnate the barriers of price, learning curve, and portability. First, the markdown content is human-readable in raw form, it is clear and easy to read and write. Second, markdown keep the consistent format on any system. No matter what text editor you use, you will always see the same effect. And because of this, Markdown can be easily transformed into other format such as PDF, HTML, DOCX, etc. These features of Markdown encourage people to contribute, as all barriers are removed. To encourage our audiences to use Markdown, the README and resume file of this project are both formatted in Markdown and a Markdown tutorial link is also included in [Step 5](#step-5-upload-resume-in-markdown-format). 
+- As Andrew Etter said in Modern Technical Writing *"One of the tenets of modern technical writing is that everyone is a contributor"*. Lightweight markup languages like Markdown eliminate the barriers of price, learning curve, and portability. First, the markdown content is human-readable in raw form, it is clear and easy to read and write. Second, markdown keeps the consistent format on any system. No matter what text editor you use, you will always see the same effect. And because of this, Markdown can be easily transformed into other formats such as PDF, HTML, DOCX, etc. These features of Markdown encourage people to contribute, as all barriers are removed. To encourage our audiences to use Markdown, the README and resume files of this project are both formatted in Markdown and a Markdown tutorial link is also included in [Step 5](#step-5-upload-resume-in-markdown-format). 
 ### Use Distributed Version Control
-- Andrew Etter has extolled the benefits of distributed version control system in his book. DVCS allows offline and concurrent work on the same file. It provides us the ability to track and recover any modifications of our project. And it encourages developers to contribute or re-produce. Although it has some drawback but it is still a very powerful tool. In this project, we have demonstrated the use of GitHub and GitHub Desktop to create and edit our repository in [Step 3](#step-3-creat-a-repository), and [Step 7](#step-7-deploy-on-github).
+- Andrew Etter has extolled the benefits of distributed version control systems in his book. DVCS allows offline and concurrent work on the same file. It provides us with the ability to track and recover any modifications of our project. And it encourages developers to contribute or re-produce. Although it has some drawbacks but it is still a very powerful tool. In this project, we have demonstrated the use of GitHub and GitHub Desktop to create and edit our repository in [Step 3](#step-3-creat-a-repository), and [Step 7](#step-7-deploy-on-github).
 ### Make Static Websites
-- Andrew Etter also mentions the benefits of static websites. It is fast, simple, portable, and secure. Hosting static websites and GitHub pages has no server-side application dependencies, no databases, and nothing to install. The static website generator can provide us the ability to create static websites without much coding knowledge. It will automatically generate a static website based on lightweight markup content and the theme of your choice. In this project, we demonstrate how to create a static website with Jekyll. Creating Jekyll template and changing the theme is done in [Step 4](#step-4-create-a-jekyll-template) and [Step 6](#step-6-change-the-theme)
+- Andrew Etter also mentions the benefits of static websites. It is fast, simple, portable, and secure. Hosting static websites and GitHub pages has no server-side application dependencies, no databases, and nothing to install. The static website generator can provide us with the ability to create static websites without much coding knowledge. It will automatically generate a static website based on lightweight markup content and the theme of your choice. In this project, we demonstrate how to create a static website with Jekyll. Creating the Jekyll template and changing the theme is done in [Step 4](#step-4-create-a-jekyll-template) and [Step 6](#step-6-change-the-theme)
