@@ -98,6 +98,7 @@ Once Step 7 is done, GitHub will start compiling your project and it may take a 
 - refresh the page after a few minutes
 - Click **"Visit site"**
 
+The static page should display on the window
 ![Website demo](images/visit.gif)
 
 ## Run Website Locally
