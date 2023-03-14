@@ -135,7 +135,7 @@ Your window should look something similar to this
 
 **A:** Make sure the baseurl and url are set up correctly in *_config.yml*. And check if your choice of theme is [supported](https://pages.github.com/themes/) on GitHub
 
-**Q:** Why host your resume on GitHub?
+**Q:** Why host my resume on GitHub?
 
 **A:** Hosting your resume on GitHub is a good way to demonstrate your programming skill to employers and it is easier for them to access your resume.
 ## Concepts of Etter's Book
